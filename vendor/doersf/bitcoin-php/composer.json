@@ -1,0 +1,41 @@
+{
+    "name": "doersf/bitcoin-php",
+    "description": "PHP Bitcoin library with functions for transactions, signatures, serialization, Random/Deterministic ECDSA keys, blocks, RPC bindings",
+    "type": "library",
+    "homepage": "https://github.com/doersf/bitcoin-php",
+    "license": "Unlicense",
+    "authors": [
+	{
+	    "name": "Thomas Kerin",
+	    "homepage": "https://thomaskerin.io",
+	    "role": "Author"
+	},
+	{
+	    "name": "Atif Nazir",
+	    "homepage": "https://github.com/doersf",
+	    "role": "Author"
+	}	
+    ],
+    "autoload": {
+	"psr-4": {
+	    "BitWasp\\Bitcoin\\": "src/"
+	},
+	"files": ["src/Script/functions.php"]
+    },
+    "autoload-dev": {
+	"psr-4": {
+	    "BitWasp\\Bitcoin\\Tests\\": "tests/"
+	}
+    },
+    "require": {
+	"php-64bit": ">=8.0",
+	"composer/semver": "^3.2.0",
+	"mdanter/ecc": "^1.0.0",
+	"bitwasp/buffertools": "^0.5.0",
+	"ext-json": "*",
+	"ext-curl": "*",
+	"ext-mbstring": "*",
+	"ext-gmp": "*",
+	"ext-bcmath": "*"
+    }
+}

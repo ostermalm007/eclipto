@@ -1,0 +1,21 @@
+{
+    "Addons": "Addons",
+    "Upload Addon": "Upload Addon",
+    "Module File": "Module File",
+    "Upload": "Upload",
+    "Module": "Module",
+    "Description": "Description",
+    "Version:": "Version:",
+    "Activate": "Activate",
+    "Deactivate": "Deactivate",
+    "Choose the module compressed file.": "Choose the module compressed file.",
+    "Addon already exist, Uploading again may lose your previous data.": "Addon already exist, Uploading again may lose your previous data.",
+    "Required files not found in the compressed addon file.": "Required files not found in the compressed addon file.",
+    "The uploaded addon is not a valid file.": "The uploaded addon is not a valid file.",
+    "The compressed module file does not belong to this script.": "The compressed module file does not belong to this script.",
+    "Addon has been uploaded successfully.":"Addon has been uploaded successfully.",
+    "Addon not found": "Addon not found",
+    "Addon status updated.": "Addon status updated.",
+    "Database connection error": "Database connection error",
+    "The module required :addional module to run.": "The module required :addional module to run."
+}

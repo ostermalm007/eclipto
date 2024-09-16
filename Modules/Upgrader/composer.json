@@ -1,0 +1,23 @@
+{
+    "name": "eclipto/upgrader-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "A. H. Millat",
+            "email": "millat.eclipto@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Upgrader\\": ""
+        }
+    }
+}
